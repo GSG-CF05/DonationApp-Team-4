@@ -11,3 +11,49 @@
 body {
   background-color: #3eb489;
 }
+
+main {
+  padding: 20px;
+}
+
+.main-image {
+  width: 342px;
+  margin-bottom: 50px;
+}
+
+.main-heading {
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.main-para {
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 200;
+}
+
+.create-account {
+  display: block;
+  width: 343px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  color: #3eb489;
+  font-size: 1rem;
+}
+
+.log-in {
+  display: block;
+  width: 343px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #3eb489;
+  color: white;
+  border: 0.5px solid white;
+  font-size: 1rem;
+}

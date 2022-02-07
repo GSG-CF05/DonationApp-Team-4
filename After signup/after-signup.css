@@ -437,6 +437,25 @@ header .img-profile img {
     box-shadow: 0 0 3px 0.5px #dadada;
 }
 
+#group figure div {
+    position: relative;
+}
+
+#group figure div span{
+    border-radius: 50%;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    color: #3EB489;
+    background-color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
 
 /* LARGE SCREEN GROUP STYLE START */
 @media (min-width: 1200px) {
@@ -531,6 +550,10 @@ header .img-profile img {
 }
 
 #nav-bar ul li a:hover {
+    color: #3EB489;
+}
+
+#nav-bar ul li a.spacial {
     color: #3EB489;
 }
 

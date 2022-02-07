@@ -1,6 +1,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
-    font-family: 'Metrophobic', sans-serif;
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Metrophobic', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3eb489;
+}
+
+main {
+  padding: 20px;
+}
+
+/* img */
+
+.main-img {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.main-image {
+  width: 90%;
+}
+
+/* content */
+
+.content {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.main-heading {
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 15px;
+  width: 80%;
+}
+
+.main-para {
+  font-size: 0.8rem;
+  color: white;
+  font-weight: 200;
+  width: 90%;
+}
+
+/* buttons */
+
+.buttons {
+  width: 100%;
+}
+
+.create-account {
+  display: block;
+  width: 343px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  color: #3eb489;
+  font-size: 0.8rem;
+  margin: auto auto 10px;
+  cursor: pointer;
+}
+
+.log-in {
+  display: block;
+  width: 343px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0.5px solid white;
+  background-color: #3eb489;
+  color: white;
+  font-size: 0.8rem;
+  margin: auto;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    padding: 50px;
+  }
+
+  html {
+    font-size: 30px;
+  }
+  .main-heading {
+    margin-bottom: 25px;
+  }
+
+  .content {
+    margin-bottom: 100px;
+  }
+
+  .create-account {
+    width: 350px;
+    height: 70px;
+  }
+
+  .log-in {
+    width: 350px;
+    height: 70px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 400px;
+  }
+
+  html {
+    font-size: 32px;
+  }
+  .main-img {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 120px;
+  }
+  .main-image {
+    width: 60%;
+  }
+
+  .content {
+    width: 50%;
+    margin-bottom: 100px;
+  }
+
+  .buttons {
+    width: 50%;
+  }
 }

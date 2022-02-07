@@ -16,9 +16,23 @@ main {
   padding: 20px;
 }
 
-.main-image {
-  width: 342px;
+/* img */
+
+.main-img {
+  width: 100%;
+  text-align: center;
   margin-bottom: 50px;
+}
+
+.main-image {
+  width: 90%;
+}
+
+/* content */
+
+.content {
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .main-heading {
@@ -26,13 +40,20 @@ main {
   color: white;
   font-weight: 500;
   margin-bottom: 15px;
+  width: 80%;
 }
 
 .main-para {
   font-size: 0.8rem;
-  margin-bottom: 20px;
   color: white;
   font-weight: 200;
+  width: 90%;
+}
+
+/* buttons */
+
+.buttons {
+  width: 100%;
 }
 
 .create-account {
@@ -41,9 +62,10 @@ main {
   height: 50px;
   border-radius: 10px;
   border: none;
-  margin-bottom: 10px;
   color: #3eb489;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  margin: auto auto 10px;
+  cursor: pointer;
 }
 
 .log-in {
@@ -51,9 +73,68 @@ main {
   width: 343px;
   height: 50px;
   border-radius: 10px;
-  border: none;
+  border: 0.5px solid white;
   background-color: #3eb489;
   color: white;
-  border: 0.5px solid white;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  margin: auto;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    padding: 50px;
+  }
+
+  html {
+    font-size: 30px;
+  }
+  .main-heading {
+    margin-bottom: 25px;
+  }
+
+  .content {
+    margin-bottom: 100px;
+  }
+
+  .create-account {
+    width: 350px;
+    height: 70px;
+  }
+
+  .log-in {
+    width: 350px;
+    height: 70px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 400px;
+  }
+
+  html {
+    font-size: 32px;
+  }
+  .main-img {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 120px;
+  }
+  .main-image {
+    width: 60%;
+  }
+
+  .content {
+    width: 50%;
+    margin-bottom: 100px;
+  }
+
+  .buttons {
+    width: 50%;
+  }
 }

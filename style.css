@@ -62,10 +62,14 @@ main {
   height: 50px;
   border-radius: 10px;
   border: none;
+  background-color: white;
   color: #3eb489;
   font-size: 0.8rem;
   margin: auto auto 10px;
   cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
 }
 
 .log-in {
@@ -79,6 +83,9 @@ main {
   font-size: 0.8rem;
   margin: auto;
   cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
 }
 
 @media screen and (min-width: 768px) {

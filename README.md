@@ -21,7 +21,7 @@ It's a mobile applicaton specified for donations in order to help those in need.
 
 ## Why did we create it?
 
-We created this App as part of our prectice project for GSG Coding Foundation course. its purpose is to practice and improve what we learned so far.
+We created this App as a practice project for GSG Coding Foundation course. Its purpose is to practice and improve our HTML and CSS skills in addition to working in a team environment.
 
 ---
 
@@ -37,5 +37,13 @@ We created this App as part of our prectice project for GSG Coding Foundation co
 ## What we used:
 
 - Git & Github
-- HTML5
-- CSS
+- HTML5 & CSS
+- Responsive web design
+
+## Used devices
+
+- Iphone SE
+
+## Final result
+
+<img src='images/on-boarding.png'>

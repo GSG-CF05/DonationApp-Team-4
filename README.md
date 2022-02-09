@@ -46,7 +46,18 @@ We created this App as a practice project for GSG Coding Foundation course. Its 
 
 ## Final result
 
+### Iphone SE
+
 <img src='final-result/main-page.png'>
+
+### Tablet
+
 <img src='final-result/after-signup.png'>
+
+### Laptop
+
 <img src='final-result/fundraiser.png'>
+
+### Large screen
+
 <img src='final-result/blog-page.png'>

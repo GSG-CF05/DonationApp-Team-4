@@ -139,12 +139,13 @@ ul {
     margin-left: 0;
     border-style: inset;
     border-width: 1px;
+    background-color: #C2E6D9;
 }
 
 #donate div span {
     background-color: #3eb489;
     display: block;
-    width: 80%;
+    width: 95%;
     height: 0.5rem;
     margin-left: 0;
     border-width: 1px;
@@ -381,7 +382,7 @@ ul {
         width: 35%;
     }
     .detial {
-        padding: 0 2rem;
+        padding: 0 4rem;
     }
     .detial h2 {
         font-size: 1.3rem;

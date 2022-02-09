@@ -48,16 +48,16 @@ We created this App as a practice project for GSG Coding Foundation course. Its 
 
 ### Iphone SE
 
-<img src='final-result/main-page.png'>
+<img src='final-result/1.png'>
 
 ### Tablet
 
-<img src='final-result/after-signup.png'>
+<img src='final-result/2.png'>
 
 ### Laptop
 
-<img src='final-result/fundraiser.png'>
+<img src='final-result/3.png'>
 
 ### Large screen
 
-<img src='final-result/blog-page.png'>
+<img src='final-result/4.png'>

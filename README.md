@@ -46,7 +46,7 @@ We created this App as a practice project for GSG Coding Foundation course. Its 
 
 ## Final result
 
-<img src='final-result/1.png'>
-<img src='final-result/2.png'>
+<img src='final-result/1.png' width= 400px height=700px>
+<img src='final-result/2.png' width= 400px height=700px>
 <img src='final-result/3.png' width= 400px height=700px>
-<img src='final-result/4.png'>
+<img src='final-result/4.png' width= 400px height=700px>

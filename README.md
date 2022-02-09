@@ -15,7 +15,7 @@
 
 ## What is Donation App?
 
-It's a mobile applicaton specified for donations in order to help those in need. Using the app, You can either donate money, or start a campaign to collect money and goods for others.
+It's a mobile application specified for donations in order to help those in need. Using the app, You can either donate money, or start a campaign to collect money and goods for others.
 
 ---
 
@@ -29,7 +29,7 @@ We created this App as a practice project for GSG Coding Foundation course. Its 
 
 - When you first open it, you can either create an account or join as a guest.
 - If you create an account, you can start donation campaigns to collect money.
-- You can donate for other campaigns as well.
+- You can donate to other campaigns as well.
 - Donations are not restricted to money; you can also donate goods.
 
 ---
@@ -47,6 +47,6 @@ We created this App as a practice project for GSG Coding Foundation course. Its 
 ## Final result
 
 <img src='final-result/main-page.png'>
-<img src='final-result/fundraiser.png'>
 <img src='final-result/after-signup.png'>
+<img src='final-result/fundraiser.png'>
 <img src='final-result/blog-page.png'>
